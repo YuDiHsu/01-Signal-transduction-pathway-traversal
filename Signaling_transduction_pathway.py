@@ -167,7 +167,7 @@ def _selenium_parser_network_id():
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
 
-    # 初始化selenium driver時傳入option參數
+    # initiate selenium driver with option parameters
     driver = webdriver.Chrome(chrome_options=options)
     driver.get("https://www.kegg.jp/kegg-bin/search_pathway_text?map=hsa&keyword=&mode=1&viewImage=false")
 
